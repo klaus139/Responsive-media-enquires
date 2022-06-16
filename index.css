@@ -99,9 +99,9 @@ footer .txt {
   font-family: "Open Sans", sans-serif;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   section {
-    background-image: url("../images/bg-hero-mobile.svg");
+    background-image: url("bg-hero-mobile.svg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -230,9 +230,9 @@ footer .txt {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
   section {
-    background-image: url("../images/bg-hero-desktop.svg");
+    background-image: url("bg-hero-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
   }
